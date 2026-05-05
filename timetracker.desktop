@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Time Tracker
+Exec=env PYTHONPATH=/home/delen008/.local/lib/python3.10/site-packages /usr/bin/python3 /home/delen008/Personal/UbuntuTimeTracker/main.py
+Path=/home/delen008/Personal/UbuntuTimeTracker
+Type=Application
+Terminal=false
+Icon=appointment-new
+Categories=Utility;
+

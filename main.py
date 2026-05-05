@@ -52,7 +52,7 @@ class TimeTrackerApp(QMainWindow):
             ("Coding", "Work", "#2980b9"),
             ("Learning", "Work", "#27ae60"),
             ("YouTube", "Entertainment", "#e67e22"),
-            ("Gaming", "Entertainment", "#c0392b"),
+            ("Personal", "Entertainment", "#c0392b"),
             ("Break", "Relaxation", "#f1c40f")
         ]
 
@@ -110,7 +110,7 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     
     app.setApplicationName("TimeTracker")
-    app.setDesktopFileName("timetracker.desktop")
+    app.setDesktopFileName("timetracker")
     
     # Forces PyQt to respect Ctrl+C (SIGINT) from the terminal
     signal.signal(signal.SIGINT, signal.SIG_DFL)
